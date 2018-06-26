@@ -1,11 +1,22 @@
-import Vue from 'vue';
+import Vue, { VueConstructor } from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
 import About from './views/About.vue';
+import AlbumView from './components/AlbumView.vue';
+import { PhotoLibrary } from '@/scripts';
 
 Vue.use(Router);
 
-export default new Router({
+interface IRouter {
+  routes: Array<{
+    path: string;
+    name: string;
+    component: VueConstructor<Vue>;
+    props?: object;
+  }>;
+}
+
+const router: IRouter = {
   routes: [
     {
       path: '/',
@@ -18,4 +29,17 @@ export default new Router({
       component: About,
     },
   ],
-});
+};
+
+for (const album of PhotoLibrary) {
+  router.routes.push({
+    path: `/${album.album.toLowerCase().replace(' ', '')}`,
+    name: album.album.toLowerCase().replace(' ', ''),
+    component: AlbumView,
+    props: {
+      index: PhotoLibrary.indexOf(album)
+    }
+  });
+}
+
+export default new Router(router);
