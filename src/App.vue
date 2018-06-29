@@ -35,4 +35,25 @@ body {
   overflow-y: hidden;
   height: 100vh;
 }
+
+::-webkit-scrollbar {
+  width: 30px;
+  height: 30px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #c0c0c0; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 5px transparent; 
+  background: rgb(112, 112, 112); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(65, 65, 65); 
+}
 </style>

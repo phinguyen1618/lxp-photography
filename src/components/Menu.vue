@@ -10,7 +10,7 @@
     </p>
     <div v-if="showAlbums">
       <p v-for="(album, i) of library" :key="i" class="header album">
-        <router-link class="link" :to="`/${album.album.toLowerCase().replace(' ', '')}`">
+        <router-link class="link" :to="`/${album.album.toLowerCase().replace(/ /g, '')}`">
           <span>{{album.album}}</span>
         </router-link>
       </p>
@@ -38,7 +38,7 @@ export default class Menu extends Vue {
 .menu {
   text-align: right;
   padding: 100px 0 0 100px;
-  height: calc(100% - 75px);
+  height: calc(100% - 100px);
   width: 220px;
   background-color: white;
   position: fixed;

@@ -5,7 +5,6 @@ export const PhotoLibrary: Array<IAlbum> = [
     statement: [""],
     images: [
       require(`@/assets/albums/By the Water/000003.jpg`),
-      require(`@/assets/albums/By the Water/001.jpg`),
       require(`@/assets/albums/By the Water/002.jpg`),
       require(`@/assets/albums/By the Water/003.jpg`),
       require(`@/assets/albums/By the Water/004.jpg`),
@@ -85,20 +84,6 @@ export const PhotoLibrary: Array<IAlbum> = [
       require(`@/assets/albums/The Land of Choice/017.jpg`),
       require(`@/assets/albums/The Land of Choice/018.jpg`),
       require(`@/assets/albums/The Land of Choice/019.jpg`),
-    ]
-  },
-  {
-    album: `Translucent wave`,
-    statement: ["I was only very little when my older brother ran away from home. It took years for my family to convince him to return, but towards everyone he became very distant. To me, he was virtually a stranger.","In this personal project, I tried to establish a connection between me and my detached brother - based on clues I found around the house and interviews with my parents or people who knew him. Retracing the journey my brother went through after he left our family, I've come to realize that we have a lot more in common than I think."],
-    images: [
-      require(`@/assets/albums/Translucent wave/01.jpg`),
-      require(`@/assets/albums/Translucent wave/02.jpg`),
-      require(`@/assets/albums/Translucent wave/03.jpg`),
-      require(`@/assets/albums/Translucent wave/04.jpg`),
-      require(`@/assets/albums/Translucent wave/05.jpg`),
-      require(`@/assets/albums/Translucent wave/06.jpg`),
-      require(`@/assets/albums/Translucent wave/07.jpg`),
-      require(`@/assets/albums/Translucent wave/08.jpg`),
     ]
   },
 ];

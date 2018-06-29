@@ -31,7 +31,7 @@ export default class AlbumView extends Vue {
   -moz-box-sizing: border-box;
   box-sizing: border-box;   
   height: 100%;
-  padding: 50px 50px 0 250px;
+  padding: 100px 50px 0 250px;
 }
 
 .statement {
@@ -51,7 +51,7 @@ export default class AlbumView extends Vue {
 
 .image {
   display: inline-block;
-  margin: 0 10px 0 10px;
+  margin: 0 20px 0 20px;
   height: 72vh;
   transition: all .2s ease-in-out;
   cursor: pointer;
@@ -70,4 +70,5 @@ export default class AlbumView extends Vue {
 .fade-enter {
   opacity: 0;
 }
+
 </style>

@@ -27,8 +27,8 @@ const router: IRouter = {
 
 for (const album of PhotoLibrary) {
   router.routes.push({
-    path: `/${album.album.toLowerCase().replace(' ', '')}`,
-    name: album.album.toLowerCase().replace(' ', ''),
+    path: `/${album.album.toLowerCase().replace(/ /g, '')}`,
+    name: album.album.toLowerCase().replace(/ /g, ''),
     component: AlbumView,
     props: {
       index: PhotoLibrary.indexOf(album)
