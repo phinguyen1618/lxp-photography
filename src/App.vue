@@ -25,7 +25,7 @@ body {
   padding: 0;
   margin: 0;
   white-space: nowrap;
-  background-image: url('./assets/marble.jpg');
+  //background-image: url('./assets/marble.jpg');
 }
 
 #app {

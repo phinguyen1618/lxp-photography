@@ -4,6 +4,6 @@ export enum ViewType {
 
 export interface IAlbum {
   album: string;
-  statement: string;
+  statement: Array<string>;
   images: Array<NodeRequire>;
 }

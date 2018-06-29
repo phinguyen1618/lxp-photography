@@ -1,9 +1,11 @@
 <template>
   <transition name="fade" mode="out-in">
     <div class="album" :key="index">
-      <div class="statement">
+      <div class="statement" v-if="library[index].statement[0] !== ''">
         <h2>{{library[index].album}}</h2>
-        <p>{{library[index].statement}}</p>
+        <p v-for="(paragraph, i) in library[index].statement" :key="i">
+          {{paragraph}}
+        </p>
       </div>
       <img v-for="(image, i) of library[index].images" 
            :key="i" :src="image" class="image">
@@ -50,7 +52,7 @@ export default class AlbumView extends Vue {
 .image {
   display: inline-block;
   margin: 0 10px 0 10px;
-  height: 72%;
+  height: 72vh;
   transition: all .2s ease-in-out;
   cursor: pointer;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -61,11 +63,11 @@ export default class AlbumView extends Vue {
   transform: scale(1.02, 1.02);
 }
 
-.fade-enter-active, .fade-leave-active {
+.fade-enter-active {
   transition: opacity .4s;
 }
 
-.fade-enter, .fade-leave-to {
+.fade-enter {
   opacity: 0;
 }
 </style>

@@ -23,7 +23,7 @@ async function writeMetaFile(albums, outputDir) {
   for (const album of albums) {
     output += '  {\n';
     output += `    album: \`${album.album}\`,\n`;
-    output += `    statement: \`${album.statement}\`,\n`;
+    output += `    statement: ${JSON.stringify(album.statement)},\n`;
     output += `    images: [\n`;
     for (const image of album.images) {
       output += `      require(\`${image}\`),\n`
@@ -68,7 +68,7 @@ async function main() {
     metas.push({
       album: album,
       images: images,
-      statement: statement
+      statement: statement.split('\n')
     });
   }
   await writeMetaFile(metas, outputDir);

@@ -15,7 +15,11 @@
         </router-link>
       </p>
     </div>
-    <p><span class="header">BIOGRAPHY</span></p>
+    <p>
+      <router-link to="bio" class="link">
+        <span class="header">BIOGRAPHY</span>
+      </router-link>
+    </p>
   </div>
 </template>
 
@@ -65,6 +69,7 @@ export default class Menu extends Vue {
   color: black;
   text-decoration: none;
   font-style: italic;
+  transition: all .1s ease-in-out;
 }
 
 .header:hover, .link:hover {

@@ -2,6 +2,7 @@ import Vue, { VueConstructor } from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
 import About from './views/About.vue';
+import Biography from './views/Biography.vue';
 import AlbumView from './components/AlbumView.vue';
 import { PhotoLibrary } from '@/scripts';
 
@@ -18,16 +19,9 @@ interface IRouter {
 
 const router: IRouter = {
   routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: Home,
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: About,
-    },
+    { path: '/', name: 'home', component: Home },
+    { path: '/about', name: 'about', component: About },
+    { path: '/bio', name: 'bio', component: Biography },
   ],
 };
 
