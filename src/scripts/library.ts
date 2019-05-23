@@ -4,7 +4,6 @@ export const PhotoLibrary: Array<IAlbum> = [
     album: `By the Water`,
     statement: [""],
     images: [
-      require(`@/assets/albums/By the Water/000003.jpg`),
       require(`@/assets/albums/By the Water/002.jpg`),
       require(`@/assets/albums/By the Water/003.jpg`),
       require(`@/assets/albums/By the Water/004.jpg`),
@@ -28,7 +27,7 @@ export const PhotoLibrary: Array<IAlbum> = [
   },
   {
     album: `Message from Dawn`,
-    statement: ["I was only very little when my older brother ran away from home. It took years for my family to convince him to return, but towards everyone he became very distant. To me, he was virtually a stranger. In this personal project, I tried to establish a connection between me and my detached brother - based on clues I found around the house and interviews with my parents or people who knew him. Retracing the journey my brother went through after he left our family, I've come to realize that we have a lot more in common than I think."],
+    statement: ["I was only little when my older brother ran away from home. It took years for my family to convince him to return, but towards everyone he had already became very distant. To me, he was more or less a stranger.", "In this personal project, I tried to establish a connection between me and my detached brother - based on clues I found around the house and interviews with my parents or people who knew him. Retracing the journey my brother went through after leaving our family, I've come to realize that we have a lot more in common than I think."],
     images: [
       require(`@/assets/albums/Message from Dawn/01.jpg`),
       require(`@/assets/albums/Message from Dawn/02.jpg`),
@@ -41,24 +40,34 @@ export const PhotoLibrary: Array<IAlbum> = [
     ]
   },
   {
-    album: `Rite of Passage`,
-    statement: ["It has been a very heavy year for my family. \r","One loss after another, the beginning of the year was filled with continuous mourning. This hazy yet tumultuous experience made me mindful, for the first time, of mortality and how fragile life can be. For the first time, albeit briefly, my fixation had been shifted away from the living. These sentiments prompted me to started working on \"Rite of passage\" - my ongoing observation of death and how one grows through the process of coping with the loss of a loved one.\r",""],
+    album: 'Happy Everyday',
+    statement: ["My ongoing observation of family life, death, and how one grows through the process of coping with the loss of a loved one."],
     images: [
-      require(`@/assets/albums/Rite of Passage/001.jpg`),
-      require(`@/assets/albums/Rite of Passage/002.jpg`),
-      require(`@/assets/albums/Rite of Passage/003.jpg`),
-      require(`@/assets/albums/Rite of Passage/004.jpg`),
-      require(`@/assets/albums/Rite of Passage/005.jpg`),
-      require(`@/assets/albums/Rite of Passage/006.jpg`),
-      require(`@/assets/albums/Rite of Passage/007.jpg`),
-      require(`@/assets/albums/Rite of Passage/008.jpg`),
-      require(`@/assets/albums/Rite of Passage/009.jpg`),
-      require(`@/assets/albums/Rite of Passage/010.jpg`),
-      require(`@/assets/albums/Rite of Passage/011.jpg`),
-      require(`@/assets/albums/Rite of Passage/012.jpg`),
-      require(`@/assets/albums/Rite of Passage/013.jpg`),
-      require(`@/assets/albums/Rite of Passage/014.jpg`),
-      require(`@/assets/albums/Rite of Passage/015.jpg`),
+      require(`@/assets/albums/Happy Everyday/02.jpg`),
+      require(`@/assets/albums/Happy Everyday/03.jpg`),
+      require(`@/assets/albums/Happy Everyday/04.jpg`),
+      require(`@/assets/albums/Happy Everyday/05.jpg`),
+      require(`@/assets/albums/Happy Everyday/06.jpg`),
+      require(`@/assets/albums/Happy Everyday/07.jpg`),
+      require(`@/assets/albums/Happy Everyday/08.jpg`),
+      require(`@/assets/albums/Happy Everyday/09.jpg`),
+      require(`@/assets/albums/Happy Everyday/10.jpg`),
+      require(`@/assets/albums/Happy Everyday/11.jpg`),
+      require(`@/assets/albums/Happy Everyday/12.jpg`),
+      require(`@/assets/albums/Happy Everyday/13.jpg`),
+      require(`@/assets/albums/Happy Everyday/14.jpg`),
+      require(`@/assets/albums/Happy Everyday/15.jpg`),
+      require(`@/assets/albums/Happy Everyday/16.jpg`),
+      require(`@/assets/albums/Happy Everyday/17.jpg`),
+      require(`@/assets/albums/Happy Everyday/18.jpg`),
+      require(`@/assets/albums/Happy Everyday/19.jpg`),
+      require(`@/assets/albums/Happy Everyday/20.jpg`),
+      require(`@/assets/albums/Happy Everyday/21.jpg`),
+      require(`@/assets/albums/Happy Everyday/22.jpg`),
+      require(`@/assets/albums/Happy Everyday/23.jpg`),
+      require(`@/assets/albums/Happy Everyday/24.jpg`),
+      require(`@/assets/albums/Happy Everyday/25.jpg`),
+      require(`@/assets/albums/Happy Everyday/26.jpg`)
     ]
   },
   {
@@ -86,4 +95,23 @@ export const PhotoLibrary: Array<IAlbum> = [
       require(`@/assets/albums/The Land of Choice/019.jpg`),
     ]
   },
+  {
+    album: 'Table For One',
+    statement: ['"Why are you dining alone?" - the restaurant owner asked her sole patron for the evening.', 'He did not reply.', 'Silence ensued. Longings were left unanswered yet intertwined. Their collective melancholy could not contain the night, so it went on, the festival\'s lights gradually became more distant.', 'These photos were taken during the 14th edition of the Angkor Photo Workshop in Siem Reap, Cambodia, with a novel loneliness in mind - I had made the realization that I never ate out alone back home in Vietnam.'],
+    images: [
+      require(`@/assets/albums/Table for One/01.jpg`),
+      require(`@/assets/albums/Table for One/02.jpg`),
+      require(`@/assets/albums/Table for One/03.jpg`),
+      require(`@/assets/albums/Table for One/04.jpg`),
+      require(`@/assets/albums/Table for One/05.jpg`),
+      require(`@/assets/albums/Table for One/06.jpg`),
+      require(`@/assets/albums/Table for One/07.jpg`),
+      require(`@/assets/albums/Table for One/08.jpg`),
+      require(`@/assets/albums/Table for One/09.jpg`),
+      require(`@/assets/albums/Table for One/10.jpg`),
+      require(`@/assets/albums/Table for One/11.jpg`),
+      require(`@/assets/albums/Table for One/12.jpg`),
+      require(`@/assets/albums/Table for One/13.jpg`)
+    ]
+  }
 ];
