@@ -25,19 +25,19 @@ export default class AlbumView extends Vue {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="css" scoped>
 
 .album {
   box-sizing: border-box;   
   height: 100%;
   padding: 100px 50px 0 250px;
+}
 
-  &.mobile {
-    height: auto;
-    padding: 60px 5% 5%;
-    display: flex;
-    flex-direction: column;
-  }
+.album.mobile {
+  height: auto;
+  padding: 60px 5% 5%;
+  display: flex;
+  flex-direction: column;
 }
 
 .statement {
@@ -45,22 +45,21 @@ export default class AlbumView extends Vue {
   display: inline-block;
   height: 100%;
   width: 250px;
-  h2 {
-    line-height: 0;
-    margin-bottom: 30px;
-  }
-  p {
-    font-size: 14px;
-  }
   margin: 0 40px 0 20px;
+}
 
-  &.mobile {
-    width: auto;
-    margin: 30px 0;
-    p {
-      font-size: 16px;
-    }
-  }
+.statement.mobile {
+  width: auto;
+  margin: 30px 0;
+}
+
+.statement p {
+  font-size: 16px;
+}
+
+.statement h2 {
+  line-height: 0;
+  margin-bottom: 30px;
 }
 
 .image {
@@ -71,11 +70,13 @@ export default class AlbumView extends Vue {
   cursor: pointer;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 
-  &.mobile {
-    width: 100%;
-    height: auto;
-    margin: 10px 0;
-  }
+  
+}
+
+.image.mobile {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
 }
 
 .image:hover {

@@ -29,7 +29,7 @@ export default class Biography extends Vue {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="css" scoped>
 img {
   width: 100%;
 }
@@ -40,12 +40,13 @@ img {
   display: grid;
   grid-template-columns: 65% 30%;
   grid-column-gap: 40px;
-
-  &.mobile {
-    padding: 50px 30px;
-    grid-template-columns: 1fr;
-  }
 }
+
+.home.mobile {
+  padding: 50px 30px;
+  grid-template-columns: 1fr;
+}
+
 .fade-enter-active {
   transition: opacity .4s;
 }

@@ -49,7 +49,7 @@ export default class Menu extends Vue {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="css" scoped>
 .wrapper {
   position: fixed;
   z-index: 30;
@@ -79,20 +79,20 @@ export default class Menu extends Vue {
   z-index: 30;
   padding: 60px 20px 0 0;
   transition: all .2s ease-in-out;
+}
 
-  &.mobile {
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.95);
-  }
+.menu.mobile {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+}
 
-  &.not-mobile {
-    opacity: .5;
+.menu.not-mobile {
+  opacity: .5;
+}
 
-    &:hover {
-      opacity: 1;
-    }
-  }
+.menu.not-mobile:hover {
+  opacity: 1;
 }
 
 .namesake {

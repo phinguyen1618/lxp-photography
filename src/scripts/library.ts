@@ -4,6 +4,7 @@ export const PhotoLibrary: Array<IAlbum> = [
     album: `By the Water`,
     statement: [""],
     images: [
+      require(`@/assets/albums/By the Water/000003.jpg`),
       require(`@/assets/albums/By the Water/002.jpg`),
       require(`@/assets/albums/By the Water/003.jpg`),
       require(`@/assets/albums/By the Water/004.jpg`),
@@ -26,23 +27,10 @@ export const PhotoLibrary: Array<IAlbum> = [
     ]
   },
   {
-    album: `Message from Dawn`,
-    statement: ["I was only little when my older brother ran away from home. It took years for my family to convince him to return, but towards everyone he had already became very distant. To me, he was more or less a stranger.", "In this personal project, I tried to establish a connection between me and my detached brother - based on clues I found around the house and interviews with my parents or people who knew him. Retracing the journey my brother went through after leaving our family, I've come to realize that we have a lot more in common than I think."],
+    album: `Happy Everyday`,
+    statement: [""],
     images: [
-      require(`@/assets/albums/Message from Dawn/01.jpg`),
-      require(`@/assets/albums/Message from Dawn/02.jpg`),
-      require(`@/assets/albums/Message from Dawn/03.jpg`),
-      require(`@/assets/albums/Message from Dawn/04.jpg`),
-      require(`@/assets/albums/Message from Dawn/05.jpg`),
-      require(`@/assets/albums/Message from Dawn/06.jpg`),
-      require(`@/assets/albums/Message from Dawn/07.jpg`),
-      require(`@/assets/albums/Message from Dawn/08.jpg`),
-    ]
-  },
-  {
-    album: 'Happy Everyday',
-    statement: ["My ongoing observation of family life, death, and how one grows through the process of coping with the loss of a loved one."],
-    images: [
+      require(`@/assets/albums/Happy Everyday/01.jpg`),
       require(`@/assets/albums/Happy Everyday/02.jpg`),
       require(`@/assets/albums/Happy Everyday/03.jpg`),
       require(`@/assets/albums/Happy Everyday/04.jpg`),
@@ -67,12 +55,45 @@ export const PhotoLibrary: Array<IAlbum> = [
       require(`@/assets/albums/Happy Everyday/23.jpg`),
       require(`@/assets/albums/Happy Everyday/24.jpg`),
       require(`@/assets/albums/Happy Everyday/25.jpg`),
-      require(`@/assets/albums/Happy Everyday/26.jpg`)
+      require(`@/assets/albums/Happy Everyday/26.jpg`),
+    ]
+  },
+  {
+    album: `Message from Dawn`,
+    statement: ["I was only very little when my older brother ran away from home. It took years for my family to convince him to return, but towards everyone he became very distant. To me, he was virtually a stranger. In this personal project, I tried to establish a connection between me and my detached brother - based on clues I found around the house and interviews with my parents or people who knew him. Retracing the journey my brother went through after he left our family, I've come to realize that we have a lot more in common than I think."],
+    images: [
+      require(`@/assets/albums/Message from Dawn/01.jpg`),
+      require(`@/assets/albums/Message from Dawn/02.jpg`),
+      require(`@/assets/albums/Message from Dawn/03.jpg`),
+      require(`@/assets/albums/Message from Dawn/04.jpg`),
+      require(`@/assets/albums/Message from Dawn/05.jpg`),
+      require(`@/assets/albums/Message from Dawn/06.jpg`),
+      require(`@/assets/albums/Message from Dawn/07.jpg`),
+      require(`@/assets/albums/Message from Dawn/08.jpg`),
+    ]
+  },
+  {
+    album: `Table for One`,
+    statement: [""],
+    images: [
+      require(`@/assets/albums/Table for One/01.jpg`),
+      require(`@/assets/albums/Table for One/02.jpg`),
+      require(`@/assets/albums/Table for One/03.jpg`),
+      require(`@/assets/albums/Table for One/04.jpg`),
+      require(`@/assets/albums/Table for One/05.jpg`),
+      require(`@/assets/albums/Table for One/06.jpg`),
+      require(`@/assets/albums/Table for One/07.jpg`),
+      require(`@/assets/albums/Table for One/08.jpg`),
+      require(`@/assets/albums/Table for One/09.jpg`),
+      require(`@/assets/albums/Table for One/10.jpg`),
+      require(`@/assets/albums/Table for One/11.jpg`),
+      require(`@/assets/albums/Table for One/12.jpg`),
+      require(`@/assets/albums/Table for One/13.jpg`),
     ]
   },
   {
     album: `The Land of Choice`,
-    statement: ["Dak R'Mang, a ward in the province of Dak Nong, central highlands Vietnam is a very peculiar land - being home to a concentration of more than 20 ethnic minortities, all of whom migrated here during the \"New Economics\" wave. \r","As part of a residency program, I had the opportunity to stay within a community of ethnic minority settlers, for the purpose of documenting their daily life. I embarked on this journey with a curiosity about the people's indigenous knowledge, about the choices that brought them here, and most importantly - a very personal belief that traditional values when placed in a foreign setting will give birth to very interesting phenomenon."],
+    statement: ["Dak R'Mang, a ward in the province of Dak Nong, central highlands Vietnam is a very peculiar land - being home to a concentration of more than 20 ethnic minortities, all of whom migrated here during the \"New Economics\" wave. ","As part of a residency program, I had the opportunity to stay within a community of ethnic minority settlers, for the purpose of documenting their daily life. I embarked on this journey with a curiosity about the people's indigenous knowledge, about the choices that brought them here, and most importantly - a very personal belief that traditional values when placed in a foreign setting will give birth to very interesting phenomenon."],
     images: [
       require(`@/assets/albums/The Land of Choice/001.jpg`),
       require(`@/assets/albums/The Land of Choice/002.jpg`),
@@ -95,23 +116,4 @@ export const PhotoLibrary: Array<IAlbum> = [
       require(`@/assets/albums/The Land of Choice/019.jpg`),
     ]
   },
-  {
-    album: 'Table For One',
-    statement: ['"Why are you dining alone?" - the restaurant owner asked her sole patron for the evening.', 'He did not reply.', 'Silence ensued. Longings were left unanswered yet intertwined. Their collective melancholy could not contain the night, so it went on, the festival\'s lights gradually became more distant.', 'These photos were taken during the 14th edition of the Angkor Photo Workshop in Siem Reap, Cambodia, with a novel loneliness in mind - I had made the realization that I never ate out alone back home in Vietnam.'],
-    images: [
-      require(`@/assets/albums/Table for One/01.jpg`),
-      require(`@/assets/albums/Table for One/02.jpg`),
-      require(`@/assets/albums/Table for One/03.jpg`),
-      require(`@/assets/albums/Table for One/04.jpg`),
-      require(`@/assets/albums/Table for One/05.jpg`),
-      require(`@/assets/albums/Table for One/06.jpg`),
-      require(`@/assets/albums/Table for One/07.jpg`),
-      require(`@/assets/albums/Table for One/08.jpg`),
-      require(`@/assets/albums/Table for One/09.jpg`),
-      require(`@/assets/albums/Table for One/10.jpg`),
-      require(`@/assets/albums/Table for One/11.jpg`),
-      require(`@/assets/albums/Table for One/12.jpg`),
-      require(`@/assets/albums/Table for One/13.jpg`)
-    ]
-  }
 ];
